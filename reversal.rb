@@ -1,7 +1,9 @@
 def reversal (string) #method to reverse any string without using .reverse
-	seperated_string=string.split('')
-	
-
+	separated_string=string.split('')
+	while i< separated_string.size/2
+		separated_string[i], separated_string[-i]=separated_string[-i],separated_string[i]
+		separated_string.join(' ')
+	end
 end
 
 
