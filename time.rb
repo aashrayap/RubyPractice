@@ -7,3 +7,5 @@ def time(this_many)
 	after_time=Time.now
 	after_time-before_time
 end
+
+puts time(20)
