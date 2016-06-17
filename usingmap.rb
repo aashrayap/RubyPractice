@@ -10,3 +10,4 @@ end
 
 squared=my_map([1,2,3,4,5]) { |num| num*2 }
 print squared
+
