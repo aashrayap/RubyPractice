@@ -11,3 +11,5 @@ end
 
 all_even=my_all([2,4,5]) { |num| num.even? }
 print all_even
+
+#why did using .each instead of while loop not work?
